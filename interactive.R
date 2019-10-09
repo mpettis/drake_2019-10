@@ -14,3 +14,4 @@ r_outdated()
 
 library(visNetwork) # so the graph renders
 r_vis_drake_graph()
+r_vis_drake_graph(targets_only = TRUE)
